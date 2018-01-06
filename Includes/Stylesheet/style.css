@@ -1,0 +1,354 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: inherit;
+	float: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Helvetica,Arial, sans-serif;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: Helvetica,Arial, sans-serif;
+    padding: 20px;
+}
+
+footer #right-float{
+    position:relative;
+    float:right;
+    top: -20px;
+}
+
+
+#magazine{
+    font-size: 24px;
+}
+
+
+
+header{
+    background-size: 100%;
+	color: white;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 60px;
+    background-image: url(Images/Code.jpg);
+    background-repeat: no-repeat;
+}
+
+
+.themebar {
+	background-color: #333;
+	color: white;
+	overflow: hidden;
+	text-align: center;
+	-webkit-transition: max-height 0.8s;
+	-moz-transition: max-height 0.8s;
+	-o-transition: max-height 0.8s;
+	transition: max-height 0.8s;
+	font-family: sans-serif;
+	border:  5px;
+	border: orangered;
+    padding: 5px;
+}
+
+span.logo-name{
+display: inline-block;
+margin: 5px 0 0 0;
+}
+
+#logo{
+    float: left;
+}
+
+.logo-bar{
+    float: left
+}
+
+#search{
+    margin-top: 4px;
+    float: right;
+    margin-right: 10px;
+    color: black;
+}
+
+.themebar  {
+border-bottom:  5px solid orangered;
+}
+
+nav ul{
+	background-color: #333;
+	color: white;
+	overflow: hidden;
+	text-align: center;
+	-webkit-transition: max-height 0.8s;
+	-moz-transition: max-height 0.8s;
+	-o-transition: max-height 0.8s;
+	transition: max-height 0.8s;
+	font-family: sans-serif;
+	border:  5px;
+	border: orangered;
+}
+
+nav ul{
+border-bottom:  5px solid orangered;
+}
+
+
+
+nav ul li{
+	display: inline-block;
+	padding: 15px;
+}
+
+nav ul li:hover{
+ background-color: #000;
+}
+
+.handle{
+width: 100%;
+height: 45px;	
+background-color: #222;
+text-align: left;
+color: white;
+box-sizing: border-box;
+padding: 20px;
+cursor: pointer;
+display: none;	
+font-family: sans-serif ;	
+}
+
+#Menu {
+color: white;
+	float:left;
+}
+
+#toggler {
+width: 20px;
+height: 20px;
+float: right;
+-webkit-transition: max-height 0.4s;
+-moz-transition: max-height 0.4s;
+-o-transition: max-height 0.4s;
+transition: max-height 0.4s;
+}
+
+nav ul ul:hover{
+	display: block;
+}
+
+#suscribe{
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+}
+
+
+#content{
+    text-align: none;
+    text-align: left;
+    margin-right:50px;
+	padding: 40px;
+    color: black;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+
+
+
+#magazine{
+    border: solid 0 white;
+    padding: 10px;
+}
+
+
+
+input{
+    color: black
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]
+{
+    padding: 7px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+input[type="submit"]{
+    width: 150px;
+    padding: 7.5px;
+}
+
+#magazine-submit {
+    background-color: orangered;
+    border: solid 4px #222;
+    border-top: none;
+    border-right: none;
+    text-align: center;
+}
+
+#magazine-inputs{
+    float: right;
+    display: inline-block;
+}
+
+#magazine-submit:hover {
+    border: solid 3px #222;
+    cursor: pointer;
+}
+
+#magazine-submit:active {
+   border: solid 4px #000;
+   cursor: pointer;    
+}
+
+
+#updates-header{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+h3{
+    margin: none;
+}
+
+
+#sneek-peek,#projects,#updates {
+    display: inline-block;
+    padding: 20px 0;
+    margin: 0 0;
+    border: none;
+    margin: none;
+    float: left;
+}
+
+#sneek-peek {
+    background-color: #f26522;
+    width: 50%;
+}
+
+#sneek-peek img {
+    width: 97%;
+    height: 120px;
+}
+
+#projects img,#updates img {
+    width: 97%;
+    height: 120px;
+
+}
+
+
+#projects {
+    background-color: #f26d2f;
+      width: 25%;
+}
+
+#updates {
+     background-color: #ff5200;
+     width: 25%;
+    
+}
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+	
+	nav ul {
+	 max-height: 0px;	
+	}
+	
+
+	
+	nav ul li{
+			box-sizing: border-box;
+		width: 100%;
+		padding: 15px;
+		text-align: left;
+	}
+	
+	
+	
+	.handle {
+	display: block;		
+    }
+	.showing{
+	 max-height: 100em;	
+	}
+    
+
+    #sneek-peek,#projects,#updates {
+    float: left;
+    width: 100%;
+}    
+    
+  
+
+
+}
+
+
+
+@media screen and (max-width:355px) {
+    
+      span.logo-name{
+    display: block;
+    position: relative;
+     bottom: 8.5px;    
+    text-align: none;    
+    text-align: center;
+}
+
+#logo{
+    float: none;
+    float: center;
+}
+
+.logo-bar{
+    float: none;
+    float: center;
+}
+    
+    #search{
+       float: none;
+        float: center;
+    }
+    
+    
+    
+}
+    
+  
+
+
+@media screen and (max-width:700px) {
+    
+   #suscribe{
+    float: none;
+    text-align: center;   
+} 
+
+    
+#magazine-inputs{
+    display: block;    
+    margin-top: 10px;
+    float: none;
+    float: center;
+}
+   
+
+}
+ 
